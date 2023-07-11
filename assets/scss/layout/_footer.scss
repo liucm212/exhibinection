@@ -1,4 +1,16 @@
 .footer{
-  background: #69F0AE;
-  font-size: 64px;
+  &-img{
+    background: url("https://images.unsplash.com/photo-1536768767433-cc552f38def9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80") no-repeat center / cover;
+    height: 400px;
+  }
+  &-email{
+    display: block;
+    width: 350px;
+    button{
+      display: block;
+      width: 136px;
+      height: 48px;
+    }
+  }
+  
 }

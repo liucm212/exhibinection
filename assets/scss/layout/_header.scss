@@ -1,4 +1,18 @@
 .header{
-  background: #69F0AE;
-  font-size: 64px;
+  &-icon{
+    position: relative;
+    font-size: 40px;
+    &-number{
+      position: absolute;
+      top: -5px;
+      right: -5px;
+      width: 22px;
+      height: 18px;
+      border-radius: 9px;
+      font-size: 12px;
+      background-color: var(--bs-secondary);
+      text-align: center;
+      color: var(--bs-white);
+    }
+  }
 }

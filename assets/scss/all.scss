@@ -1,8 +1,10 @@
 @import 'bootstrap';
+@import 'base';
+@import 'layout';
+
+// ejs
+@import './layout/header.scss';
+@import './layout/footer.scss';
 
 
-// @import './layout/header.scss';
-// @import './layout/footer.scss';
-
-
-// @import './pages/index.scss';
+@import './pages/index.scss';

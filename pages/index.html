@@ -4,16 +4,130 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>index</title>
+    <%- include('./layout/fonts') -%> <%- include('./layout/icons') -%>
+    <title>Exhibinection</title>
   </head>
   <body>
     <%- include('./layout/header'); -%>
-
-    <h1 class="index-title">我是首頁</h1>
-    <img src="../assets/images/cat.jpg" style="width: 300px" alt="cat" />
-    <button type="submit" class="btn btn-success">bootstrap button</button>
-
-    <%- include('./layout/footer'); -%>
+    <!-- banner -->
+    <div class="banner text-white">
+      <div class="banner-img">
+        <a class="h-100" href="">
+          <div class="container-lg h-100 pb-80 pb-md-0">
+            <div
+              class="row h-100 align-items-end align-items-md-center justify-content-center justify-content-md-start"
+            >
+              <div class="col-auto ms-0 ms-md-95">
+                <div class="banner-content">
+                  <h2 class="fs-2 mb-md-8">台北當代藝術展</h2>
+                  <p class="fs-5 mb-md-16">01 JUN - 31 OCT</p>
+                  <button
+                    class="btn btn-secondary banner-btn me-16 me-md-8"
+                    type="button"
+                  >
+                    購買票券
+                  </button>
+                  <button
+                    class="btn btn-outline-white banner-btn"
+                    type="button"
+                  >
+                    詳細資訊
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- filter -->
+    <div class="filter mb-20 mb-md-60">
+      <div class="container-md">
+        <ul
+          class="filter-list row flex-nowrap gx-0 gx-md-18 justify-content-center overflow-scroll"
+        >
+          <li class="col-auto">
+            <a href="" class="filter-list-item link-fourth">音樂</a>
+          </li>
+          <li class="col-auto">
+            <a href="" class="filter-list-item link-fourth">戲劇</a>
+          </li>
+          <li class="col-auto">
+            <a href="" class="filter-list-item link-fourth">設計</a>
+          </li>
+          <li class="col-auto">
+            <a href="" class="filter-list-item link-fourth">藝術</a>
+          </li>
+          <li class="col-auto">
+            <a href="" class="filter-list-item link-fourth">美食</a>
+          </li>
+          <li class="col-auto">
+            <a href="" class="filter-list-item link-fourth">旅遊</a>
+          </li>
+          <li class="col-auto">
+            <a href="" class="filter-list-item link-fourth">電影</a>
+          </li>
+          <li class="col-auto">
+            <a href="" class="filter-list-item link-fourth">親子</a>
+          </li>
+          <li class="col-auto">
+            <a href="" class="filter-list-item link-fourth">期間限定</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- hot : 熱門展覽 -->
+    <div class="hot">
+      <div class="container-xl">
+        <h2 class="mb-8 md-md-24">熱門特展</h2>
+        <ul>
+          <!--! 手機版未完成，架構或許可以再調整一次，目前card-content是用height: 120px;硬撐的  -->
+          <li class="card mb-md-20">
+            <div class="row gx-md-24">
+              <div class="col-12 col-md-auto">
+                <a class="card-img card-img-01" href=""></a>
+              </div>
+              <div class="col-12 col-md">
+                <div class="row justify-content-between py-md-40 pe-md-24">
+                  <div
+                    class="col-md-10 d-flex flex-column justify-content-between"
+                  >
+                    <h3 class="card-title mb-4">2020 台味設計展</h3>
+                    <p class="card-subTitle mb-8">$350</p>
+                    <p class="card-content mb-md-36">
+                      一年一度的台味設計展由經濟部工業局主辦、台灣創意設計中心執行，每年，針對在地生活、文化及產業發展特色，運用設計思考詮釋新時代的意涵，並以展覽呈現在地設計。
+                    </p>
+                    <div class="d-flex">
+                      <button
+                        type="button"
+                        class="btn btn-primary me-4 me-md-8 mt-md-auto"
+                      >
+                        購買票券
+                      </button>
+                      <button type="button" class="btn btn-outline-primary">
+                        收藏展覽
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col-md-auto d-flex flex-column">
+                    <div class="card-date align-self-end">01 JUN | 31 OCT</div>
+                    <a href="">
+                      <i class="card-icon material-symbols-outlined">
+                        anchor
+                      </i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- live -->
+    <!-- alsoLike -->
+    <%- include('./layout/footer'); -%> <%- include('./layout/color-helper');
+    -%>
 
     <script type="module" src="../main.js"></script>
   </body>
