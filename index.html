@@ -4,20 +4,227 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>index</title>
-    <script type="module" crossorigin src="/exhibinection/assets/main-f29edb37.js"></script>
-    <link rel="stylesheet" href="/exhibinection/assets/main-6bcfbec8.css">
+    <!-- Roboto -->
+<link
+  rel="stylesheet"
+  href="https://fonts.google.com/specimen/Roboto?query=roboto"
+/>
+<!-- Noto Sans CJK TC -->
+<link rel="stylesheet" href="https://www.google.com/get/noto/" />
+ <!-- movie tape -->
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+/>
+    <title>Exhibinection</title>
+    <script type="module" crossorigin src="/exhibinection/assets/main-917c13fe.js"></script>
+    <link rel="stylesheet" href="/exhibinection/assets/main-631e6ca0.css">
   </head>
   <body>
-    <h1 class="header">我是 header</h1>
-<a href="index.html">index</a>
-<a href="about.html">about</a>
-<a href="contact.html">contact</a>
-    <h1 class="index-title">我是首頁</h1>
-    <img src="/exhibinection/assets/cat-0c0689ae.jpg" style="width: 300px" alt="cat" />
-    <button type="submit" class="btn btn-success">bootstrap button</button>
+    <div class="header py-28 text-center">
+  <div class="container-xl">
+    <div class="row row-cols-xl-3">
+      <div class="col">
+        <!-- empty column : to center "EXHIBINECTION" -->
+      </div>
+      <div class="col">
+        <h1 class="mx-auto">
+          <a class="link-primary" href="#">EXHIBINECTION</a>
+        </h1>
+      </div>
+      <div class="col">
+        <ul class="row justify-content-end align-items-center">
+          <li class="col-auto d-none d-xl-block me-xl-32">
+            <a class="link-fourth" href="">Sign in</a>
+          </li>
+          <li class="col-auto d-none d-xl-block me-xl-32">
+            <a class="link-fourth" href="">Sign up</a>
+          </li>
+          <li class="col-auto">
+            <a class="position-relative link-fourth" href="">
+              <div class="header-icon material-symbols-outlined">theaters</div>
+              <div class="header-icon-number">3</div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- banner -->
+    <div class="banner text-white">
+      <div class="banner-img">
+        <a class="h-100" href="">
+          <div class="container-lg h-100 pb-80 pb-md-0">
+            <div
+              class="row h-100 align-items-end align-items-md-center justify-content-center justify-content-md-start"
+            >
+              <div class="col-auto ms-0 ms-md-95">
+                <div class="banner-content">
+                  <h2 class="fs-2 mb-md-8">台北當代藝術展</h2>
+                  <p class="fs-5 mb-md-16">01 JUN - 31 OCT</p>
+                  <button
+                    class="btn btn-secondary banner-btn me-16 me-md-8"
+                    type="button"
+                  >
+                    購買票券
+                  </button>
+                  <button
+                    class="btn btn-outline-white banner-btn"
+                    type="button"
+                  >
+                    詳細資訊
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- filter -->
+    <div class="filter mb-20 mb-md-60">
+      <div class="container-md">
+        <ul
+          class="filter-list row flex-nowrap gx-0 gx-md-18 justify-content-center overflow-scroll"
+        >
+          <li class="col-auto">
+            <a href="" class="filter-list-item link-fourth">音樂</a>
+          </li>
+          <li class="col-auto">
+            <a href="" class="filter-list-item link-fourth">戲劇</a>
+          </li>
+          <li class="col-auto">
+            <a href="" class="filter-list-item link-fourth">設計</a>
+          </li>
+          <li class="col-auto">
+            <a href="" class="filter-list-item link-fourth">藝術</a>
+          </li>
+          <li class="col-auto">
+            <a href="" class="filter-list-item link-fourth">美食</a>
+          </li>
+          <li class="col-auto">
+            <a href="" class="filter-list-item link-fourth">旅遊</a>
+          </li>
+          <li class="col-auto">
+            <a href="" class="filter-list-item link-fourth">電影</a>
+          </li>
+          <li class="col-auto">
+            <a href="" class="filter-list-item link-fourth">親子</a>
+          </li>
+          <li class="col-auto">
+            <a href="" class="filter-list-item link-fourth">期間限定</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- hot : 熱門展覽 -->
+    <div class="hot">
+      <div class="container-xl">
+        <h2 class="mb-8 md-md-24">熱門特展</h2>
+        <ul>
+          <!--! 手機版未完成，架構或許可以再調整一次，目前card-content是用height: 120px;硬撐的  -->
+          <li class="card mb-md-20">
+            <div class="row gx-md-24">
+              <div class="col-12 col-md-auto">
+                <a class="card-img card-img-01" href=""></a>
+              </div>
+              <div class="col-12 col-md">
+                <div class="row justify-content-between py-md-40 pe-md-24">
+                  <div
+                    class="col-md-10 d-flex flex-column justify-content-between"
+                  >
+                    <h3 class="card-title mb-4">2020 台味設計展</h3>
+                    <p class="card-subTitle mb-8">$350</p>
+                    <p class="card-content mb-md-36">
+                      一年一度的台味設計展由經濟部工業局主辦、台灣創意設計中心執行，每年，針對在地生活、文化及產業發展特色，運用設計思考詮釋新時代的意涵，並以展覽呈現在地設計。
+                    </p>
+                    <div class="d-flex">
+                      <button
+                        type="button"
+                        class="btn btn-primary me-4 me-md-8 mt-md-auto"
+                      >
+                        購買票券
+                      </button>
+                      <button type="button" class="btn btn-outline-primary">
+                        收藏展覽
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col-md-auto d-flex flex-column">
+                    <div class="card-date align-self-end">01 JUN | 31 OCT</div>
+                    <a href="">
+                      <i class="card-icon material-symbols-outlined">
+                        anchor
+                      </i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- live -->
+    <!-- alsoLike -->
+    <footer class="text-white mb-lg-">
+  <!-- email -->
+  <div class="footer-img pb-36">
+    <div class="container-xl h-100 d-flex flex-column justify-content-end">
+      <p class="fs-2 mb-22 mb-lg-12">想收到最新消息嗎？ <br />快訂閱我們！</p>
+      <form class="footer-email">
+        <div class="input-group">
+          <input
+            class="form-control"
+            type="email"
+            placeholder="輸入您的電子信箱"
+          />
+          <button class="btn btn-secondary" type="submit">訂閱</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <!-- info -->
+  <div class="container-xl">
+    <div class="row justify-content-between align-items-center">
+      <div class="col-auto">
+        <div class="row align-items-center gx-lg-16">
+          <div class="col-12 col-lg-auto">
+            <h3 class="fs-4 py-lg-28">
+              <a class="link-black" href="">EXHIBINECTION</a>
+            </h3>
+          </div>
+          <div class="col-12 col-lg-auto">
+            <p class="text-fourth">&copy; 2020. All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-auto d-none d-lg-block">
+        <ul class="row gx-32">
+          <li class="col-auto"><a class="link-fourth" href="">Sign in</a></li>
+          <li class="col-auto"><a class="link-fourth" href="">Sign up</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+ <div class="container-md">
+  <div class="row justify-content-center">
+    <div class="col-12">
+      <button type="text" class="btn btn-primary">Primary</button
+      ><button type="text" class="btn btn-secondary">Secondary</button
+      ><button type="text" class="btn btn-third">Third</button
+      ><button type="text" class="btn btn-fourth">Fourth</button
+      ><button type="text" class="btn btn-fifth">Fifth</button
+      ><button type="text" class="btn btn-white">White</button
+      ><button type="text" class="btn btn-black">Black</button>
+      <button type="text" class="btn btn-light">Light</button>
+      <button type="text" class="btn btn-dark">Dark</button>
+    </div>
+  </div>
+</div>
 
-    <footer class="footer">我是 footer</footer>
     
   </body>
 </html>
