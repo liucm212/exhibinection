@@ -1,0 +1,8 @@
+// bootstrap function : to use _variable.scss
+@import "../../node_modules/bootstrap/scss/functions";
+
+// _variable.scss
+@import '../helper/variables';
+
+// other bootstrap insertions.
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
